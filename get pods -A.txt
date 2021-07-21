@@ -1,0 +1,11 @@
+PS C:\vagrant\www> kubectl get pods -A
+NAMESPACE     NAME                                                   READY   STATUS    RESTARTS   AGE
+dev           hello-64567b4f67-q85qm                                 1/1     Running   0          48m
+dev           ingress-nginx-1626788693-controller-5b589696f6-p9h96   1/1     Running   0          33m
+kube-system   coredns-558bd4d5db-8v9jm                               1/1     Running   0          53m
+kube-system   etcd-minikube                                          1/1     Running   0          53m
+kube-system   kube-apiserver-minikube                                1/1     Running   0          53m
+kube-system   kube-controller-manager-minikube                       1/1     Running   1          53m
+kube-system   kube-proxy-xxffx                                       1/1     Running   0          53m
+kube-system   kube-scheduler-minikube                                1/1     Running   0          53m
+kube-system   storage-provisioner                                    1/1     Running   0          53m

@@ -1,0 +1,5 @@
+PS C:\vagrant\www> kubectl get svc
+NAME                                            TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)                      AGE
+hello                                           NodePort       10.106.146.154   <none>        80:31000/TCP                 47m
+ingress-nginx-1626788693-controller             LoadBalancer   10.101.250.32    <pending>     80:30414/TCP,443:30844/TCP   34m
+ingress-nginx-1626788693-controller-admission   ClusterIP      10.106.83.143    <none>        443/TCP                      34m
